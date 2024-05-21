@@ -9,7 +9,7 @@ const About = () => {
 
             <div className=' flext flex-col content-center gap-4 p-10  border border-y-8 border-double rounded-2xl  bg-cyan-400/15 w-full'>
             <div className='flex justify-center'>
-                    <Image className=' rounded-full lg:w-50' width={200} height={100} src={yo} alt={''}></Image>
+                    <Image className=' rounded-full lg:w-50' width={200} height={100} src={yo} alt={'yo'}></Image>
                 </div>
                 <h1 className='p-5 text-white text-center text-5xl'>Josue Alberto Moreno Guzman</h1>
 
