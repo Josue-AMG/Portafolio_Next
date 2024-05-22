@@ -18,7 +18,7 @@ const Contacts = () => {
                             <Image width={40} height={20} src={'https://cdn.icon-icons.com/icons2/644/PNG/96/green_phone_icon-icons.com_59416.png'} alt={'TELEFONO'}></Image>
                         </div>
 
-                        <div className='bg-white p-2  w-80 '>
+                        <div className='bg-white p-2  w-full '>
                             <p className='text-gray-400 lg:text-lg text-sm'> +1-829-844-4114</p>
                         </div>
 
