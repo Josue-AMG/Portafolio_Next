@@ -5,7 +5,7 @@ import back from '@/public/background.png'
 const Contacts = () => {
     return (
 
-        <section className='grid grid-cols-1 lg:grid-cols-2  '>
+        <section className='grid grid-cols-1 lg:grid-cols-2 max-w-7xl m-auto '>
             <div  className='flex gap-4 flex-col bg-cyan-700/15 lg:p-7 lg-gap-3 p-2 '>
                 
                 <div>
@@ -13,24 +13,24 @@ const Contacts = () => {
                 </div>
                 <div className='flex flex-col m-auto lg:p-9 gap-5'>
 
-                    <div className='flex  flex-row '>
+                    <div className='flex  flex-row lg:m-0  lg:w-96 w-80 m-auto'>
                         <div className='bg-cyan-800 p-1 rounded-l-xl'>
                             <Image width={40} height={20} src={'https://cdn.icon-icons.com/icons2/644/PNG/96/green_phone_icon-icons.com_59416.png'} alt={'TELEFONO'}></Image>
                         </div>
 
-                        <div className='bg-white p-2 w-96'>
-                            <p className='text-gray-400'> +1-829-844-4114</p>
+                        <div className='bg-white p-2  w-full '>
+                            <p className='text-gray-400 lg:text-lg text-sm'> +1-829-844-4114</p>
                         </div>
 
                     </div>
 
-                    <div className='flex  flex-row rounded-xl'>
+                    <div className='flex  flex-row rounded-xl lg:m-0  lg:w-96 w-80 m-auto'>
                         <div className='bg-cyan-800 p-1 rounded-l-xl'>
                             <Image width={40} height={20} src={'https://cdn.icon-icons.com/icons2/2044/PNG/96/gmail_logo_icon_124335.png'} alt={'EMAIL'}></Image>
                         </div>
 
                         <div className='bg-white p-2 w-96'>
-                            <p className='text-gray-400 '> josuealbertomorenoguzman@gmail.com</p>
+                            <p className='text-gray-400 text-sm '> josuealbertomorenoguzman@gmail.com</p>
                         </div>
 
                     </div>

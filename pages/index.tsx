@@ -21,10 +21,12 @@ export default function Home() {
 
       </Head>
 
-      <main className="relative mx-auto  lg:p-10">
-        <nav className="  m-auto  pr-2  animate-bounce hover:animate-none fixed right-0 left-0 z-50 container max-w-xl w-xl mt-10 lg:mt-0 h-10  rounded-full content-center  border  border-cyan-300 hover:opacity-100 bg-white/30 backdrop-blur">
+      <main className="relative mx-auto  ">
+
+        <div className="flex justify-center">
+        <nav className=" content-center   animate-bounce hover:animate-none fixed z-50   lg:w-1/2  w-96   mt-10 lg:mt-10 h-10   rounded-full   border  border-cyan-300 hover:opacity-100 bg-white/30 backdrop-blur">
           <div className="flex flex-row justify-center ">
-            <div className="flex  order-none space-x-4 gap-3  text-black font-mono text-md font-bold ">
+            <div className="flex  order-none  gap-3 lg:gap-5 text-black font-mono lg:text-md text-sm font-bold ">
               <Link href={"#about"} className="duration-700 inline-block hover:scale-125  hover:text-cyan-300">Informacion</Link>
               <Link href={"#proyects"} className="m-0 duration-700 inline-block hover:scale-125  hover:text-cyan-300">Proyectos</Link>
               <Link href={"#skills"} className="duration-700 inline-block hover:scale-125  hover:text-cyan-300">Habilidades</Link>
@@ -32,8 +34,9 @@ export default function Home() {
             </div>
           </div>
         </nav>
+        </div>
 
-        <section className="flex flex-col  backdrop-blur w-full   content-center  p-10 m-auto">
+        <section className="flex flex-col  backdrop-blur w-full lg:w-full lg:p-10 content-center  p-0 m-auto">
           
           <div id="about">
             <About></About>
