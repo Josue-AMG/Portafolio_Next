@@ -70,7 +70,7 @@ const Contacts = () => {
                         subject: values.asunto,
                         text: values.mensaje,
                       }
-                    axios.post("http://localhost:3000/api/send", dataxd)
+                    axios.post("https://portafolio-next-self.vercel.app/api/send", dataxd)
                     e.currentTarget.reset();
                     alert( "Correo enviado con exito!")
                     
