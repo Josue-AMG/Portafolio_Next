@@ -6,7 +6,7 @@ import calc from '@/public/calculator.png'
 
 const Proyects = () => {
     return (
-        <div className='flex flex-col gap-4 p-20 w-full '>
+        <div className='flex flex-col gap-4  w-full '>
 
             <Card urldemo='https://gilded-salmiakki-776346.netlify.app/' url='https://github.com/Josue-AMG/Ask_YourDate' titulo='🔍Ask YourDate🪪' descripcion='Este Proyecto integra una API con informaciones recolectadas de la JCE de la cual se extraen los datos mediante un Buscador que tiene la App Web, que cuando se pone la Cedula valida trae los datos al modelo de cedula virtual, Utilice React+Vite y TypeScript.' urlimagen={cedu}></Card>
             <Card urldemo='https://rickymorty-mu.vercel.app/' url='https://github.com/Josue-AMG/Rick_Morty_Page.git' titulo='👽 Rick Morty Page' descripcion='Este proyecto es una pagina enfocada en la serie 

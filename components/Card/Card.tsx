@@ -5,17 +5,17 @@ import { Tooltip } from "@nextui-org/react";
 
 const Card = ({ urlimagen, titulo, descripcion, url, urldemo }: { urlimagen: StaticImageData, titulo: string, descripcion: string, url: string, urldemo: string }) => {
     return (
-        <section className='lg:flex-row  gap-7 duration-700 flex flex-col drop-shadow-2xl text-white hover:bg-cyan-300 hover:text-black bg-cyan-900/50 rounded-r-xl p-6'>
+        <section className='lg:flex-row w-96 lg:w-full gap-7 duration-700 flex flex-col drop-shadow-2xl text-white hover:bg-cyan-300 hover:text-black bg-cyan-900/50 rounded-r-xl p-6'>
             <div className='relative flex justify-center'>
 
                 <Image width={400} src={urlimagen} alt={"image from " + titulo} />
 
             </div>
 
-            <div className=' grid  justify-items-center wrap w-96 h-64'>
+            <div className=' grid  justify-items-center wrap lg:w-96 w-full h-64'>
                 <h2 className='font-bold text-3xl text-center'>{titulo}</h2>
 
-                <p className=' p-3 text-md text-clip  overflow-visible text-left '>{descripcion}</p>
+                <p className=' p-3 text-sm font-bold  lg:text-md  text-center overflow-visible lg:text-left '>{descripcion}</p>
             </div>
 
             <div className='flex justify-center lg:gap-2'>

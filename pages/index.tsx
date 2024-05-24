@@ -45,7 +45,6 @@ export default function Home() {
           <div id="proyects" className="flex  p-5 justify-center w-full  top-0">
             <div className="w-4/2">
             <h1 className="p-3 text-3xl text-white font-bold sticky top-0 w-full text-center">⚒️ Proyectos ⚒️</h1>
-            <hr className='border-solid border-grey w-full'/>
             <Proyects></Proyects>
             </div>
           </div>
