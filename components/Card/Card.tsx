@@ -24,7 +24,7 @@ const Card = ({ urlimagen, titulo, descripcion, url, urldemo }: { urlimagen: Sta
                         <Image className='inline-block hover:scale-125 hover:animate-pulse border bg-white rounded-full  ' width={40} height={100} src="https://cdn.icon-icons.com/icons2/936/PNG/96/github-logo_icon-icons.com_73546.png" alt="" />
                     </Link>
                 </Tooltip>
-                <Tooltip content="Ver demostracion">
+                <Tooltip content="Ver demostracion" className='bg-cyan-300 rounded-full'>
                     <Link className='w-10 m-auto l' href={urldemo}>
                         <Image className='inline-block hover:scale-125 hover:animate-pulse border border-black bg-white rounded-full  ' width={40} height={100} src="https://cdn.icon-icons.com/icons2/1659/PNG/96/3844441-eye-see-show-view-watch_110305.png" alt="" />
                     </Link>

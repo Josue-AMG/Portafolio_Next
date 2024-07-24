@@ -47,8 +47,21 @@ const About = () => {
                     <Accordion className=''>
                         <AccordionItem className=' m-auto bg-black/70 text-cyan-300 lg:w-2/4  rounded-xl border border-cyan-300 p-1 box-border' key="1" aria-label="CVs" title="🗒️ CVs">
                         <div className='flex flex-col gap-2 text-center p-3 box-border'>
-                        <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1J1Och1gvKUuK565Wycjfzsv-aYCKCLkq/view?usp=sharing'}>Tecnico en Informatica</Link>
+                        <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1UDDoC1xDBLuvwZX4aTylhzqHLPEd1uVU/view?usp=sharing'}>Tecnico en Informatica</Link>
                         <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1L5eogE9driCCBMLPNXYQR3qAa0ovX9b9/view?usp=sharing'}>Desarrollador de Software</Link>
+                        </div>
+
+                        </AccordionItem>
+                        
+                    </Accordion>
+                </div>
+                <div className='p-3'>
+                    <Accordion className=''>
+                        <AccordionItem className=' m-auto bg-black/70 text-cyan-300 lg:w-2/4  rounded-xl border border-cyan-300 p-1 box-border' key="1" aria-label="CVs" title="🧑🏾‍💼 Certificados">
+                        <div className='flex flex-col gap-2 text-center p-3 box-border'>
+                        <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1S1LXWeYrWkMjDjgw8D5gTkj2hZV_EcLC/view?usp=sharing'}>Fundamentos de SCRUM</Link>
+                        <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1NdQTR-imx6RHVflToceCu-WckwgUDyQ-/view?usp=sharing'}>Software Tester</Link>
+                        <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1vK0ST8VEKXkdrxb8H--x9a3x4rVEdeQj/view?usp=sharing'}>SCRUM Fundation</Link>
                         </div>
 
                         </AccordionItem>
