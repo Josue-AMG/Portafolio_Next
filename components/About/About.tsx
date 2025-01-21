@@ -49,6 +49,7 @@ const About = () => {
                         <div className='flex flex-col gap-2 text-center p-3 box-border'>
                         <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1UDDoC1xDBLuvwZX4aTylhzqHLPEd1uVU/view?usp=sharing'}>Tecnico en Informatica</Link>
                         <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1L5eogE9driCCBMLPNXYQR3qAa0ovX9b9/view?usp=sharing'}>Desarrollador de Software</Link>
+                        <Link className='hover:text-white hover:animate-pulse' href={'https://drive.google.com/file/d/1z9h1Dkdfty4Cvh1kMKbH1VdF0x_-xxuh/view?usp=sharing'}>QA Tester</Link>
                         </div>
 
                         </AccordionItem>
@@ -68,6 +69,7 @@ const About = () => {
                         
                     </Accordion>
                 </div>
+                
             </div>
         </section>
     );
